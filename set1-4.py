@@ -1,5 +1,5 @@
 bc=input()
 if((bc>='a' and bc<= 'z') or (bc>='A' and bc<='Z')):
-    print(bc, "Alphabet")
+    print("Alphabet")
 else:
-    print(bc, "No")
+    print("No")
