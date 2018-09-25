@@ -1,6 +1,9 @@
-y=['a','e','i','o','u','A','E','I','O','U']
-z=str(input())
-if(z in y):
-    print('vowel')
+z = input();
+if z == '0':
+    exit();
 else:
-    print('consonant')
+    if(z=='a' or z=='A' or z=='e' or z=='E' or z=='i' or z=='I'
+       or z=='o' or z=='O' or z=='u' or z=='U'):
+    	    print(z, "vowel");
+    else:
+    	print(z, "consonant");
