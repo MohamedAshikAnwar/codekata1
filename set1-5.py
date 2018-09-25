@@ -1,9 +1,7 @@
-a=int(input())
-b=int(input())
-c=int(input())
+a,b,c=input().split()
 if(a>b>c):
-    print("a is greater")
+    print(a)
 elif(c>b>a):
-    print("c is greater")
+    print(c)
 else:
-    print("b is greater")
+    print(b)
